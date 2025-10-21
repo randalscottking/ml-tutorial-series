@@ -10,49 +10,49 @@ Build production-ready ML models for:
 
 ## Tutorial Series
 
-### ✅ Tutorial 1: ML Fundamentals - Stop Overthinking, Start Building
+Tutorial 1: ML Fundamentals - Stop Overthinking, Start Building
 Learn the basics by building a spam classifier from scratch. Understand supervised vs unsupervised learning, train/test splits, and why you don't need advanced math to get started.
 
 **Topics:** Classification basics, feature extraction, model training, evaluation metrics  
 **Status:** Complete
 
-### ✅ Tutorial 2: Data Prep - Where ML Projects Actually Live or Die
+Tutorial 2: Data Prep - Where ML Projects Actually Live or Die
 Master the critical 80% of ML work that happens before modeling. Handle missing values, scale features, avoid data leakage, and build proper train/test/validation splits.
 
 **Topics:** Data cleaning, feature scaling, handling missing data, SQL data extraction  
 **Status:** Complete
 
-### ✅ Tutorial 3: Classification Models - Pick the Right Tool
+Tutorial 3: Classification Models - Pick the Right Tool
 Compare four classification algorithms (Logistic Regression, Decision Trees, Random Forest, XGBoost) on the same churn dataset. Learn when to use each algorithm and understand the performance vs interpretability tradeoff.
 
 **Topics:** Algorithm selection, logistic regression, decision trees, random forests, XGBoost, model comparison  
 **Status:** Complete
 
-### 🚧 Tutorial 4: Regression Models - Predicting Numbers That Matter
+Tutorial 4: Regression Models - Predicting Numbers That Matter
 Switch from classification to regression. Build models to predict customer lifetime value. Learn regression-specific metrics and how to handle outliers.
 
 **Topics:** Regression algorithms, RMSE, MAE, R², outlier handling  
 **Status:** Coming soon
 
-### 🚧 Tutorial 5: Model Evaluation - Beyond Accuracy
+Tutorial 5: Model Evaluation - Beyond Accuracy
 Learn what metrics actually matter for business problems. Understand precision vs recall, ROC curves, and when accuracy is a terrible metric.
 
 **Topics:** Confusion matrices, ROC-AUC, precision-recall curves, cross-validation, business metrics  
 **Status:** Coming soon
 
-### 🚧 Tutorial 6: Feature Engineering - The Art of Better Inputs
+Tutorial 6: Feature Engineering - The Art of Better Inputs
 Transform raw data into features that actually help your models learn. Create interaction terms, handle categorical variables, and build time-based features.
 
 **Topics:** Feature creation, encoding techniques, domain knowledge application  
 **Status:** Coming soon
 
-### 🚧 Tutorial 7: Hyperparameter Tuning - Making Models Actually Work
+Tutorial 7: Hyperparameter Tuning - Making Models Actually Work
 Move beyond default parameters. Use grid search and random search to find optimal model settings without overfitting.
 
 **Topics:** Grid search, random search, cross-validation, overfitting prevention  
 **Status:** Coming soon
 
-### 🚧 Tutorial 8: Production ML - Getting Models into the Real World
+Tutorial 8: Production ML - Getting Models into the Real World
 Learn how to deploy models with Streamlit, log predictions, monitor performance, and handle model drift in production environments.
 
 **Topics:** Model persistence, Streamlit deployment, monitoring dashboards, retraining strategies  
@@ -68,14 +68,14 @@ ml-tutorial-series/
 │   ├── customer_churn.csv (coming soon)
 │   └── employee_attrition.csv (coming soon)
 ├── notebooks/
-│   ├── tutorial_01_fundamentals.ipynb ✅
-│   ├── tutorial_02_data_prep.ipynb ✅
-│   ├── tutorial_03_classification_models.md ✅
-│   ├── tutorial_04_regression_models.md 🚧
-│   ├── tutorial_05_model_evaluation.md 🚧
-│   ├── tutorial_06_feature_engineering.md 🚧
-│   ├── tutorial_07_hyperparameter_tuning.md 🚧
-│   └── tutorial_08_production.md 🚧
+│   ├── tutorial_01_fundamentals.ipynb 
+│   ├── tutorial_02_data_prep.ipynb 
+│   ├── tutorial_03_classification_models.md 
+│   ├── tutorial_04_regression_models.md 
+│   ├── tutorial_05_model_evaluation.md 
+│   ├── tutorial_06_feature_engineering.md 
+│   ├── tutorial_07_hyperparameter_tuning.md 
+│   └── tutorial_08_production.md 
 ├── src/
 │   ├── data_prep.py (coming soon)
 │   ├── models.py (coming soon)
